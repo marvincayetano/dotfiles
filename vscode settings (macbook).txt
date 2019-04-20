@@ -1,83 +1,88 @@
-module.exports = {
-    "extends": "airbnb",
-    "parser": "babel-eslint",
-    "rules": {
-      "no-unused-vars": [
-        1,
-        {
-          "argsIgnorePattern": "res|next|^err"
-        }
-      ],
-      "arrow-body-style": [
-        2,
-        "as-needed"
-      ],
-      "no-param-reassign": [
-        2,
-        {
-          "props": false
-        }
-      ],
-      "import": 0,
-      "max-len": 0,
-      "no-console": 0,
-      "func-names": 0,
-      "comma-dangle": 0,
-      "consistent-return": 0,
-      "indent": ["error", 4],
-      "import/extensions": 0,
-      "react/display-name": 1,
-      "no-underscore-dangle": 0,
-      "react/no-unused-state": 0,
-      "react/forbid-prop-types": 0,
-      "react/react-in-jsx-scope": 0,
-      "jsx-ally/accessible-emoji": 0,
-      "react/jsx-indent": ["error", 4],
-      "react/no-unescpaed-entities": 0,
-      "space-before-function-paren": 0,
-      "import/prefer-default-export": 0,
-      "react/jsx-indent-props": ["error", 4],
-      "react/jsx-one-expression-per-line": 0,
-      "react/jsx-filename-extension": [
-        1,
-        {
-          "extensions": [
-            ".js",
-            ".jsx"
-          ]
-        }
-      ],
-      "radix": 0,
-      "no-shadow": [
-        2,
-        {
-          "hoist": "all",
-          "allow": [
-            "resolve",
-            "reject",
-            "done",
-            "next",
-            "err",
-            "error"
-          ]
-        }
-      ],
-      "quotes": [
-        2,
-        "single",
-        {
-          "avoidEscape": true,
-          "allowTemplateLiterals": true
-        }
-      ],
-      "jsx-a11y/href-no-hash": "off",
-      "jsx-a11y/anchor-is-valid": [
-        "warn",
-        {
-          "aspects": [
-            "invalidHref"
-          ]
-        }
-      ]
+// VSCODE SETTINGS
+{
+    "window.zoomLevel": -1.25,
+    "workbench.activityBar.visible": true,
+    "workbench.colorTheme": "Solarized Dark",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#00212b",
+        "editor.selectionBackground": "#EED8D5",
+        "editor.selectionHighlightBackground": "#EED8D5",
+        "editorCursor.background": "#002A35",
+        "editorCursor.foreground": "#EED8D5",
+        "panel.border": "#ff99007a",
+        "tab.activeBorderTop": "#FF9800",
     },
-};
+    "editor.cursorWidth": 2,
+    "editor.detectIndentation": false,
+    "editor.fontSize": 17,
+    "editor.fontFamily": "Inconsolata",
+    "editor.fontWeight": "400",
+    "editor.formatOnSave": true,
+    "editor.letterSpacing": 0.5,
+    "editor.lineHeight": 25,
+    "editor.wordWrap": "on",
+    "emmet.triggerExpansionOnTab": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.enable": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.openEditors.visible": 0,
+    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.fontSize": 17,
+    "terminal.integrated.letterSpacing": 2,
+    "vim.history": 1000,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                ";"
+            ],
+            "after": [
+                ":"
+            ]
+        }
+    ],
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "files.eol": "\n",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/tmp": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/dist": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/tmp/**": true,
+        "**/bower_components/**": true,
+        "**/dist/**": true
+    },
+}
