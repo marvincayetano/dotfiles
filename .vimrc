@@ -108,4 +108,4 @@ highligh Pmenu ctermfg=15 ctermbg=208
 " CHANGE KEYS
 nnoremap ; : 
 nnoremap : ;
-inoremap jh <Esc>
+inoremap jk <Esc>
