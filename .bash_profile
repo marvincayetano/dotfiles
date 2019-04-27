@@ -6,7 +6,7 @@ parse_git_branch() {
 export PS1="\[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
 
 # GIT AUTO COMPLETION
-[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
+test -f ~/.git-completion.bash && . $_
 
 # REACT NATIVE
 alias rn="react-native run-android"
