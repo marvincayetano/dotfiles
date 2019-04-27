@@ -16,7 +16,7 @@ alias r="npm run start"
 alias i="npm i"
 alias u="npm uninstall"
 alias idev="npm install --save-dev"
-alias avd="~/Library/Android/sdk/tools/emulator -avd Pixel3XL"  
+alias avd="emulator @Pixel3XL"  
 
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
