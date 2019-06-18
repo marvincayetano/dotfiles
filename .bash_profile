@@ -12,11 +12,17 @@ test -f ~/.git-completion.bash && . $_
 alias rn="react-native run-android"
 
 # NPM
-alias r="npm run start"
+alias r="npm run"
+alias rs="npm run start"
+alias rd="npm run dev"
 alias i="npm i"
+alias id="npm install --save-dev"
 alias u="npm uninstall"
-alias idev="npm install --save-dev"
-alias avd="emulator @Pixel3XL"  
+alias p="git push origin"
+alias g="sudo npm i -g"
+alias avd="emulator @Pixel3XL" 
+alias a="git add ."
+alias c="git commit -m"
 
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
