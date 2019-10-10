@@ -1,13 +1,11 @@
 // VSCODE SETTINGS
 {
     "window.zoomLevel": -1.25,
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Solarized Dark",
     "workbench.editor.enablePreview": false,
     "workbench.editor.tabSizing": "shrink",
-    "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.statusBar.feedback.visible": false,
     "workbench.colorCustomizations": {
         "activityBar.background": "#00212b",
         "editor.selectionBackground": "#EED8D5",
@@ -85,5 +83,7 @@
         "**/bower_components/**": true,
         "**/dist/**": true
     },
-        "todo-tree.flat": true
+    "search.location": "panel",
+    "breadcrumbs.enabled": false,
+    "todo-tree.tree.flat": true
 }
