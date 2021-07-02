@@ -21,10 +21,6 @@
         "command": "workbench.action.terminal.toggleTerminal"
     },
     {
-        "key": "ctrl+`",
-        "command": "-workbench.action.terminal.toggleTerminal"
-    },
-    {
         "key": "ctrl+0",
         "command": "-workbench.action.focusSideBar"
     },
@@ -102,11 +98,6 @@
     },
     {
         "key": "ctrl+f",
-        "command": "-extension.vim_ctrl+f",
-        "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl"
-    },
-    {
-        "key": "ctrl+f",
         "command": "-keybindings.editor.searchKeybindings",
         "when": "inKeybindings && keybindingFocus"
     },
@@ -136,25 +127,6 @@
         "key": "alt+right",
         "command": "-workbench.action.terminal.focusNextPane",
         "when": "terminalFocus"
-    },
-    {
-        "key": "ctrl+o",
-        "command": "-workbench.action.files.openFile"
-    },
-    {
-        "key": "ctrl+o",
-        "command": "-extension.vim_ctrl+o",
-        "when": "editorTextFocus && vim.active && vim.use<C-o> && !inDebugRepl"
-    },
-    {
-        "key": "ctrl+b",
-        "command": "-extension.vim_ctrl+b",
-        "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl && vim.mode != 'Insert'"
-    },
-    {
-        "key": "ctrl+w",
-        "command": "-extension.vim_ctrl+w",
-        "when": "editorTextFocus && vim.active && vim.use<C-w> && !inDebugRepl"
     },
     {
         "key": "ctrl+shift+o",
@@ -190,5 +162,9 @@
         "key": "shift+alt+a",
         "command": "-editor.action.blockComment",
         "when": "editorTextFocus && !editorReadonly"
+    }
+    { "key": "ctrl+n",
+      "command": "explorer.newFile",
+      "when": "explorerViewletFocus"
     }
 ]
