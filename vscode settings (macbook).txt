@@ -1,89 +1,83 @@
 // VSCODE SETTINGS
 {
-    "window.zoomLevel": -1.25,
-    "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Solarized Dark",
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.tabSizing": "shrink",
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#00212b",
-        "editor.selectionBackground": "#EED8D5",
-        "editor.selectionHighlightBackground": "#EED8D5",
-        "editorCursor.background": "#002A35",
-        "editorCursor.foreground": "#EED8D5",
-        "panel.border": "#ff99007a",
-        "tab.activeBorderTop": "#FF9800",
-    },
-    "editor.cursorWidth": 2,
-    "editor.detectIndentation": false,
-    "editor.fontSize": 19,
-    "editor.fontFamily": "Inconsolata",
-    "editor.fontWeight": "400",
-    "editor.formatOnSave": true,
-    "editor.letterSpacing": 0.5,
-    "editor.lineHeight": 25,
-    "editor.wordWrap": "on",
-    "emmet.triggerExpansionOnTab": true,
-    "eslint.alwaysShowStatus": true,
-    "eslint.autoFixOnSave": true,
-    "eslint.enable": true,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.openEditors.visible": 0,
-    "files.trimTrailingWhitespace": true,
-    "terminal.integrated.fontSize": 17,
-    "terminal.integrated.letterSpacing": 2,
-    "vim.history": 1000,
-    "vim.normalModeKeyBindings": [
-        {
-            "before": [
-                ";"
-            ],
-            "after": [
-                ":"
-            ]
-        }
-    ],
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "[javascript]": {
-        "editor.formatOnSave": false
-    },
-    "files.eol": "\n",
-    "vim.insertModeKeyBindings": [
-        {
-            "before": [
-                "j",
-                "k"
-            ],
-            "after": [
-                "<Esc>"
-            ]
-        }
-    ],
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/tmp": true,
-        "**/node_modules": true,
-        "**/bower_components": true,
-        "**/dist": true
-    },
-    "files.watcherExclude": {
-        "**/.git/objects/**": true,
-        "**/.git/subtree-cache/**": true,
-        "**/node_modules/**": true,
-        "**/tmp/**": true,
-        "**/bower_components/**": true,
-        "**/dist/**": true
-    },
-    "search.location": "panel",
-    "breadcrumbs.enabled": false,
-    "todo-tree.tree.flat": true
+  "window.zoomLevel": -1.25,
+  "workbench.colorTheme": "Solarized Dark",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.labelFormat": "short",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#00212b",
+    "editor.selectionBackground": "#EED8D5",
+    "editor.selectionHighlightBackground": "#EED8D5",
+    "editorCursor.background": "#002A35",
+    "editorCursor.foreground": "#EED8D5",
+    "panel.border": "#ff99007a",
+    "tab.activeBorderTop": "#FF9800"
+  },
+  "editor.cursorWidth": 2,
+  "editor.detectIndentation": false,
+  "editor.fontSize": 19,
+  "editor.fontFamily": "Inconsolata",
+  "editor.fontWeight": "400",
+  "editor.formatOnSave": true,
+  "editor.letterSpacing": 0.6,
+  "editor.lineHeight": 26,
+  "editor.wordWrap": "on",
+  "editor.quickSuggestions": { "strings": true },
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.openEditors.visible": 0,
+  "files.trimTrailingWhitespace": true,
+  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.letterSpacing": 2,
+  "vim.history": 1000,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [";"],
+      "after": [":"]
+    }
+  ],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "files.eol": "\n",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/bower_components": true,
+    "**/CVS": true,
+    "**/node_modules": true,
+    "**/tmp": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true,
+    "**/bower_components/**": true,
+    "**/dist/**": true
+  },
+  "breadcrumbs.enabled": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "extensions.ignoreRecommendations": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "timeline.excludeSources": [],
+  "editor.fontLigatures": true,
+  "explorer.compactFolders": false,
+  "terminal.explorerKind": "external",
+  "terminal.external.osxExec": "Terminal.app"
 }
