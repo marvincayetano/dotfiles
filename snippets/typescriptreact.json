@@ -26,7 +26,7 @@
           "$1",
           "}",
           "",
-          "export default function $TM_FILENAME_BASE({}: React.FC<$TM_FILENAME_BASE}Props> = ({$2}) => {",
+          "export function $TM_FILENAME_BASE({}: $TM_FILENAME_BASEProps) {",
           "\treturn (<div></div>)",
           "}"
         ],
