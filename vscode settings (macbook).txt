@@ -25,6 +25,9 @@
   "editor.lineHeight": 26,
   "editor.wordWrap": "on",
   "editor.quickSuggestions": { "strings": true },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
   "emmet.triggerExpansionOnTab": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
@@ -79,5 +82,8 @@
   "editor.fontLigatures": true,
   "explorer.compactFolders": false,
   "terminal.explorerKind": "external",
-  "terminal.external.osxExec": "Terminal.app"
+  "terminal.external.osxExec": "Terminal.app",
+  "workbench.editor.highlightModifiedTabs": true,
+  "editor.tabSize": 2,
+  "bracketPairColorizer.depreciation-notice": false
 }
