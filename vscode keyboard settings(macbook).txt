@@ -171,5 +171,9 @@
   {
     "key": "cmd+n",
     "command": "-workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "cmd+l cmd+l",
+    "command": "workbench.action.closeEditorsToTheRight"
   }
 ]
