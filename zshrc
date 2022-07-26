@@ -39,6 +39,9 @@ alias pu="pnpm remove"
 alias pcg="pnpm codegen"
 alias pug="sudo pnpm remove --global"
 
+# CODE
+alias c="code ."
+
 # NPM
 alias nr="npm run"
 alias nrt="npm run test"
@@ -54,6 +57,8 @@ alias nug="sudo npm uninstall -g"
 
 # git commit --date="10 day ago" -m "Your commit message" 
 alias gs="git status"
+alias gh="git stash"
+alias ghp="git stash pop"
 alias gr="git rebase"
 alias grc="git rebase --continue"
 alias grc="git rebase --continue"
