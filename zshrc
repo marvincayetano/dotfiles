@@ -47,6 +47,7 @@ alias e="exit"
 alias nr="npm run"
 alias nrt="npm run test"
 alias ns="npm run start"
+alias nsdg="npm run start:debug"
 alias nsd="npm run start:dev"
 alias nd="npm run dev"
 alias ni="npm i"
@@ -56,7 +57,7 @@ alias nu="npm uninstall"
 alias ncg="npm run codegen"
 alias nug="sudo npm uninstall -g"
 
-# git commit --date="10 day ago" -m "Your commit message" 
+# git commit --date="10 day ago" -m "Your commit message"
 alias gs="git status"
 alias gm="git merge"
 alias gmd="gcd; gl; gc -; gm development;"
@@ -77,14 +78,19 @@ alias gbd="git branch -d"
 alias yw="yarn watch"
 alias ys="yarn start"
 alias yd="yarn dev"
-alias nt='git commit -m "📄 Note:'
-alias ch='git commit -m "🔥 Chore:'
-alias fx='git commit -m "👍 Fix:'
-alias ft='git commit -m "🚀 Feat:'
-alias dc='git commit -m "📄 Doc:'
+alias ch='git commit -m "'
+
+# alias nt='git commit -m "📄 Note:'
+# alias ch='git commit -m "🔥 Chore:'
+# alias fx='git commit -m "👍 Fix:'
+# alias ft='git commit -m "🚀 Feat:'
+# alias dc='git commit -m "📄 Doc:'
 alias ga='git add'
 alias fit='cd ~/Documents/Personal/pourmoncorpse; yd'
 alias fitt='cd ~/Documents/Personal/pourmoncorpsed; yd'
 
 export PNPM_HOME="/Users/marvin/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/local/bin/terraform terraform
