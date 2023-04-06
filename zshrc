@@ -79,6 +79,12 @@ alias yw="yarn watch"
 alias ys="yarn start"
 alias yd="yarn dev"
 alias ch='git commit -m "'
+alias fx='git commit -m "Fix: '
+
+# TERRAFORM
+alias ta='terraform apply'
+alias tp='terraform plan'
+alias td='terraform destroy'
 
 # alias nt='git commit -m "📄 Note:'
 # alias ch='git commit -m "🔥 Chore:'
