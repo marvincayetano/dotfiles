@@ -82,9 +82,12 @@ alias ch='git commit -m "'
 alias fx='git commit -m "Fix: '
 
 # TERRAFORM
-alias ta='terraform apply'
+alias ta='terraform apply -auto-approve'
+alias ti='terraform init'
 alias tp='terraform plan'
 alias td='terraform destroy'
+alias ab='open ~/.aws/credentials'
+alias ac='export AWS_PROFILE=609794928862_Admins'
 
 # alias nt='git commit -m "📄 Note:'
 # alias ch='git commit -m "🔥 Chore:'
