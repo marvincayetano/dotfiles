@@ -85,7 +85,7 @@ alias fx='git commit -m "Fix: '
 alias ta='terraform apply -auto-approve'
 alias ti='terraform init'
 alias tp='terraform plan'
-alias td='terraform destroy'
+alias td='terraform destroy -target'
 alias ab='open ~/.aws/credentials'
 alias ac='export AWS_PROFILE=609794928862_Admins'
 
