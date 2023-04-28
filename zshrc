@@ -87,7 +87,7 @@ alias ti='terraform init'
 alias tp='terraform plan'
 alias td='terraform destroy -target'
 alias ab='open ~/.aws/credentials'
-alias ac='export AWS_PROFILE=609794928862_Admins'
+
 
 # alias nt='git commit -m "📄 Note:'
 # alias ch='git commit -m "🔥 Chore:'
