@@ -17,15 +17,15 @@ zstyle ':vcs_info:git:*' formats '%F{green}[%b]%f'
 setopt PROMPT_SUBST
 PROMPT='${PWD/#$HOME/~}${vcs_info_msg_0_} '
 
-# redis
-export PATH=$PATH:$HOME/Downloads/redis-stable/src
-
 # Permission denied fix ..
 setopt autocd
 
 # NVM
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
+
+# OTHER
+alias fp="sudo lsof -i :"
 
 # PNPM
 alias p="pnpm"
